@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_70ca43ffdc75431f7bb67d8ce502dcfd {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_70ca43ffdc75431f7bb67d8ce502dcfd" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_70ca43ffdc75431f7bb67d8ce502dcfd = L.map(
+                "map_70ca43ffdc75431f7bb67d8ce502dcfd",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0375861bbabb2e387b67fb763e578ec9 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_70ca43ffdc75431f7bb67d8ce502dcfd);
+        
+    
+            var circle_6564a64fb80e7fd81945c95cdcd06f6b = L.circle(
+                [10.750952, 21.401132],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 640000.0, "stroke": true, "weight": 3}
+            ).addTo(map_70ca43ffdc75431f7bb67d8ce502dcfd);
+        
+    
+        var popup_93f986c9d5a780a8a55e165a6b29fec6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57541bc6e0707d0d158240529b6bc761 = $(`<div id="html_57541bc6e0707d0d158240529b6bc761" style="width: 100.0%; height: 100.0%;"> África: 80.0% hombres en data</div>`)[0];
+                popup_93f986c9d5a780a8a55e165a6b29fec6.setContent(html_57541bc6e0707d0d158240529b6bc761);
+            
+        
+
+        circle_6564a64fb80e7fd81945c95cdcd06f6b.bindPopup(popup_93f986c9d5a780a8a55e165a6b29fec6)
+        ;
+
+        
+    
+    
+            var circle_c7b721b14b784015260569af77a5866f = L.circle(
+                [-13.457803, 133.989279],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 666400.0, "stroke": true, "weight": 3}
+            ).addTo(map_70ca43ffdc75431f7bb67d8ce502dcfd);
+        
+    
+        var popup_6821e3f128f70c5b98919eca1a1adfd8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11a6e709bb71ce01840d6abe3e9da3ed = $(`<div id="html_11a6e709bb71ce01840d6abe3e9da3ed" style="width: 100.0%; height: 100.0%;"> Oceanía: 83.3% hombres en data</div>`)[0];
+                popup_6821e3f128f70c5b98919eca1a1adfd8.setContent(html_11a6e709bb71ce01840d6abe3e9da3ed);
+            
+        
+
+        circle_c7b721b14b784015260569af77a5866f.bindPopup(popup_6821e3f128f70c5b98919eca1a1adfd8)
+        ;
+
+        
+    
+    
+            var circle_27afddbada09a3c5719bbe428da1103b = L.circle(
+                [51.236945, 15.424569],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 676000.0, "stroke": true, "weight": 3}
+            ).addTo(map_70ca43ffdc75431f7bb67d8ce502dcfd);
+        
+    
+        var popup_c22c2849857ac6fefb73d674a84fe9c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7aab5550a3fdabd260ed44351174fcf9 = $(`<div id="html_7aab5550a3fdabd260ed44351174fcf9" style="width: 100.0%; height: 100.0%;"> Europa: 84.5% hombres en data</div>`)[0];
+                popup_c22c2849857ac6fefb73d674a84fe9c6.setContent(html_7aab5550a3fdabd260ed44351174fcf9);
+            
+        
+
+        circle_27afddbada09a3c5719bbe428da1103b.bindPopup(popup_c22c2849857ac6fefb73d674a84fe9c6)
+        ;
+
+        
+    
+    
+            var circle_edebd07ea064421fb455b856669a4912 = L.circle(
+                [39.845398, 94.440194],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 658400.0, "stroke": true, "weight": 3}
+            ).addTo(map_70ca43ffdc75431f7bb67d8ce502dcfd);
+        
+    
+        var popup_882e29e4d308b3e00140656d7ca2361a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31b2b31c0da5abe9caac6399fda19007 = $(`<div id="html_31b2b31c0da5abe9caac6399fda19007" style="width: 100.0%; height: 100.0%;"> Asia: 82.3% hombres en data</div>`)[0];
+                popup_882e29e4d308b3e00140656d7ca2361a.setContent(html_31b2b31c0da5abe9caac6399fda19007);
+            
+        
+
+        circle_edebd07ea064421fb455b856669a4912.bindPopup(popup_882e29e4d308b3e00140656d7ca2361a)
+        ;
+
+        
+    
+    
+            var circle_e3c86ef6efc2056d013256e197ba5872 = L.circle(
+                [-7.102691, -58.567698],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 704000.0, "stroke": true, "weight": 3}
+            ).addTo(map_70ca43ffdc75431f7bb67d8ce502dcfd);
+        
+    
+        var popup_820b6a39b9f5847077766b7c3fcf0758 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2f0e7001a5f525c60984803e7653bf3 = $(`<div id="html_d2f0e7001a5f525c60984803e7653bf3" style="width: 100.0%; height: 100.0%;"> América del Sur: 88.0% hombres en data</div>`)[0];
+                popup_820b6a39b9f5847077766b7c3fcf0758.setContent(html_d2f0e7001a5f525c60984803e7653bf3);
+            
+        
+
+        circle_e3c86ef6efc2056d013256e197ba5872.bindPopup(popup_820b6a39b9f5847077766b7c3fcf0758)
+        ;
+
+        
+    
+    
+            var circle_830348ed0bb49d08f125b08f03ec8ced = L.circle(
+                [49.030387, -106.503336],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 635200.0, "stroke": true, "weight": 3}
+            ).addTo(map_70ca43ffdc75431f7bb67d8ce502dcfd);
+        
+    
+        var popup_e9458d286a81174ee697fe96d889d816 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a53e52aafb410932d9fe6de54e03c57a = $(`<div id="html_a53e52aafb410932d9fe6de54e03c57a" style="width: 100.0%; height: 100.0%;"> América del Norte: 79.4% hombres en data</div>`)[0];
+                popup_e9458d286a81174ee697fe96d889d816.setContent(html_a53e52aafb410932d9fe6de54e03c57a);
+            
+        
+
+        circle_830348ed0bb49d08f125b08f03ec8ced.bindPopup(popup_e9458d286a81174ee697fe96d889d816)
+        ;
+
+        
+    
+    
+            var circle_ff1d5ab76944a96b3ee416917704fa2e = L.circle(
+                [10.750952, 21.401132],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 160000.0, "stroke": true, "weight": 3}
+            ).addTo(map_70ca43ffdc75431f7bb67d8ce502dcfd);
+        
+    
+        var popup_f78ee7c587c63ec1a581bfdd7df1de57 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51a2589d8da0025e6a9242abafdd7ddf = $(`<div id="html_51a2589d8da0025e6a9242abafdd7ddf" style="width: 100.0%; height: 100.0%;"> África: 20.0% mujeres en data</div>`)[0];
+                popup_f78ee7c587c63ec1a581bfdd7df1de57.setContent(html_51a2589d8da0025e6a9242abafdd7ddf);
+            
+        
+
+        circle_ff1d5ab76944a96b3ee416917704fa2e.bindPopup(popup_f78ee7c587c63ec1a581bfdd7df1de57)
+        ;
+
+        
+    
+    
+            var circle_a0d8eb5eb0b75ab1c9c9b943b2799786 = L.circle(
+                [-13.457803, 133.989279],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 132800.0, "stroke": true, "weight": 3}
+            ).addTo(map_70ca43ffdc75431f7bb67d8ce502dcfd);
+        
+    
+        var popup_898e74a4874adcfbd0a0e7499b942d85 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a60098b75e29ad16f0564c8c5191faf = $(`<div id="html_6a60098b75e29ad16f0564c8c5191faf" style="width: 100.0%; height: 100.0%;"> Oceanía: 16.6% mujeres en data</div>`)[0];
+                popup_898e74a4874adcfbd0a0e7499b942d85.setContent(html_6a60098b75e29ad16f0564c8c5191faf);
+            
+        
+
+        circle_a0d8eb5eb0b75ab1c9c9b943b2799786.bindPopup(popup_898e74a4874adcfbd0a0e7499b942d85)
+        ;
+
+        
+    
+    
+            var circle_c0672ce429e4498f17f2d5f3e1108baa = L.circle(
+                [51.236945, 15.424569],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 124000.0, "stroke": true, "weight": 3}
+            ).addTo(map_70ca43ffdc75431f7bb67d8ce502dcfd);
+        
+    
+        var popup_bc6bd9cebbf87d7e749529f265bf3c9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f37d0d5dbb6fe709f23258131c24dbbb = $(`<div id="html_f37d0d5dbb6fe709f23258131c24dbbb" style="width: 100.0%; height: 100.0%;"> Europa: 15.5% mujeres en data</div>`)[0];
+                popup_bc6bd9cebbf87d7e749529f265bf3c9b.setContent(html_f37d0d5dbb6fe709f23258131c24dbbb);
+            
+        
+
+        circle_c0672ce429e4498f17f2d5f3e1108baa.bindPopup(popup_bc6bd9cebbf87d7e749529f265bf3c9b)
+        ;
+
+        
+    
+    
+            var circle_13a31d44f237703f4851b21bc11c3e66 = L.circle(
+                [39.845398, 94.440194],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 141440.0, "stroke": true, "weight": 3}
+            ).addTo(map_70ca43ffdc75431f7bb67d8ce502dcfd);
+        
+    
+        var popup_368eb67430a55129bf8c95fb3bee84a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a3eef04ff47dd97b6096e9c1d78bb46d = $(`<div id="html_a3eef04ff47dd97b6096e9c1d78bb46d" style="width: 100.0%; height: 100.0%;"> Asia: 17.68% mujeres en data</div>`)[0];
+                popup_368eb67430a55129bf8c95fb3bee84a9.setContent(html_a3eef04ff47dd97b6096e9c1d78bb46d);
+            
+        
+
+        circle_13a31d44f237703f4851b21bc11c3e66.bindPopup(popup_368eb67430a55129bf8c95fb3bee84a9)
+        ;
+
+        
+    
+    
+            var circle_4baa389b275fcc95844b8fcf997f0f91 = L.circle(
+                [-7.102691, -58.567698],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 88000.0, "stroke": true, "weight": 3}
+            ).addTo(map_70ca43ffdc75431f7bb67d8ce502dcfd);
+        
+    
+        var popup_585edd783bfcf46462e669f2430ae3cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc3e5638bf7ba79842897a4fe1304622 = $(`<div id="html_cc3e5638bf7ba79842897a4fe1304622" style="width: 100.0%; height: 100.0%;"> América del Sur: 11.0% mujeres en data</div>`)[0];
+                popup_585edd783bfcf46462e669f2430ae3cd.setContent(html_cc3e5638bf7ba79842897a4fe1304622);
+            
+        
+
+        circle_4baa389b275fcc95844b8fcf997f0f91.bindPopup(popup_585edd783bfcf46462e669f2430ae3cd)
+        ;
+
+        
+    
+    
+            var circle_c43229a2265e35d43359d3228f43c26f = L.circle(
+                [49.030387, -106.503336],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 164000.0, "stroke": true, "weight": 3}
+            ).addTo(map_70ca43ffdc75431f7bb67d8ce502dcfd);
+        
+    
+        var popup_2baf9374556ac9239f20262a40425454 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e77907fd2b23e25e1e0bd4bf30cc80d = $(`<div id="html_3e77907fd2b23e25e1e0bd4bf30cc80d" style="width: 100.0%; height: 100.0%;"> América del Norte: 20.5% mujeres en data</div>`)[0];
+                popup_2baf9374556ac9239f20262a40425454.setContent(html_3e77907fd2b23e25e1e0bd4bf30cc80d);
+            
+        
+
+        circle_c43229a2265e35d43359d3228f43c26f.bindPopup(popup_2baf9374556ac9239f20262a40425454)
+        ;
+
+        
+    
+</script>
+</html>
